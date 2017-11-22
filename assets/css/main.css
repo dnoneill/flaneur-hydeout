@@ -567,7 +567,7 @@ body {
 
   /* Undo mobile CSS */
   #sidebar, .home #sidebar {
-    width: 18rem;
+    width: 33%;
     text-align: left; }
     #sidebar > *:last-child, .home #sidebar > *:last-child {
       margin-bottom: 0; }
