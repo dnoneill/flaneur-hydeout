@@ -19,11 +19,14 @@ body {
 	right:0;
 	overflow:auto;
 }
-
+.post-title{
+	color: #ffffff;
+	font-size: 14px;
+}
 p.post-header {
 letter-spacing: 2px;
 font-size: 13px;
-color: #000;
+color: #ffffff;
 margin: 0 0 15px;
 font-family: "Open Sans Condensed";
 font-weight: 300;
@@ -38,14 +41,24 @@ z-index: 1 !important;
 p.byline {
 	font-size: 15px;
 	line-height: 15px;
-	margin-bottom: 25px;
-	margin: 0 0 35px;
+	color: #ffffff;
 	font-family: "Open Sans Condensed";
 	font-weight: 300;
 	font-style: italic;
 
 
 }
+
+article.post-article {
+height: 400px;
+overflow-y: scroll;
+z-index: 1 !important;
+padding-bottom: 10px
+font-size: 5px;
+
+}
+
+
 
 p {
 	display: block;
